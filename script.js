@@ -157,6 +157,65 @@ w /= 3; /*w = w / 3*/
 console.log(w);
 
 
+
+
+// class 3 started
+
+// arithic oparetor
+let a = 6;
+let b = 4;
+console.log(" a + b = ", a+b)
+console.log(" a - b = ", a-b)
+console.log(" a * b = ", a*b)
+console.log(" a / b = ", a/b)
+console.log(" a ** b = ", a**b)
+console.log(" a % b = ", a%b)
+console.log(" a++ = ", a++)
+console.log(" ++a = ", ++a)
+console.log(" a-- = ", a--)
+console.log(" --a = ", --a)
+
+// asgnment oparetor
+
+let nola =1;
+console.log("nola is now =", nola)
+nola += 5;
+console.log("nola is now =", nola)
+nola -= 5;
+console.log("nola is now =", nola)
+nola *= 5;
+console.log("nola is now =", nola)
+nola /= 5;
+console.log("nola is now =", nola)
+nola %= 5;
+console.log("nola is now =", nola)
+nola **= 1;
+console.log("nola is now =", nola)
+
+// comparison oparetor
+
+let comp1 = 7;
+let comp2 = 6;
+console.log(" comp1 == comp2 is", comp1==comp2)
+console.log(" comp1 != comp2 is", comp1!=comp2)
+console.log(" comp1 === comp2 is", comp1===comp2)
+console.log(" comp1 !== comp2 is", comp1!==comp2)
+console.log(" comp1 > comp2 is", comp1>comp2)
+console.log(" comp1 < comp2 is", comp1<comp2)
+console.log(" comp1 >= comp2 is", comp1>=comp2)
+console.log(" comp1 <= comp2 is", comp1<=comp2)
+
+// logical oparetor
+
+let x = 6;
+let y = 4;
+console.log(x>y && x==6)
+console.log(x<y || x==6)
+console.log(!true)
+
+
+// if else
+
 let a = prompt('what is your age');
 if (a < 0) {
   alert('this is invalid age');
