@@ -155,3 +155,18 @@ console.log(z);
 let w = 15;
 w /= 3; /*w = w / 3*/
 console.log(w);
+
+
+let a = prompt('what is your age');
+if (a < 0) {
+  alert('this is invalid age');
+}
+else if (a>17){
+  alert('you can talk him');
+}
+else if (a>9){
+  alert('may be he can!');
+}
+else {
+  alert('no way');
+}
