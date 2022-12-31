@@ -403,20 +403,103 @@ console.log(userobjectTwo.calculateAge())*/
 // }
 
 // array
-const newArray =[ 
-    "Task 1",
-    "Task 2",
-    "Task 3",
-    "Task 4",
-    "Task 5",
-    "Task 6",
-    "Task 7",
-    "Task 8",
-];
-console.log(newArray)
+// const newArray =[ 
+//     "Task 1",
+//     "Task 2",
+//     "Task 3",
+//     "Task 4",
+//     "Task 5",
+//     "Task 6",
+//     "Task 7",
+//     "Task 8",
+// ];
+// console.log(newArray)
 
-console.log(newArray.indexOf("Task 5"))
-console.log(newArray.indexOf("Task 3"))
+// console.log(newArray.indexOf("Task 5"))
+// console.log(newArray.indexOf("Task 3"))
 
-console.log(newArray.includes("Task 3"))
-console.log(newArray.includes("Task 13"))
+// console.log(newArray.includes("Task 3"))
+// console.log(newArray.includes("Task 13"))
+
+
+
+
+
+
+
+// class 8 code
+
+
+// const calculateAge = function (birthYear) {
+//     return 2022 - birthYear ;
+// }
+// // const aAge = calculateAge(1979)
+// // console.log(aAge)
+// const jobLeft = function (birthYear){
+//     const Age = calculateAge (birthYear);
+//     return 65 - Age;
+// }
+// // console.log(jobLeft(1995))
+// const ajobleft = jobLeft(1990)
+// console.log(ajobleft);
+
+
+// function displayText(){
+//     console.log("This is console text!")
+// }
+// function alarttext(){
+//     alert("This is alert text!")
+// }
+
+// const text = 'I LOve "Bangladesh"';
+// console.log(text)
+// const text2 = "I LOve \"Bangladesh\"";
+// console.log(text2)
+
+// string methods
+// const x = "mr moon";
+// console.log(x.length)
+
+// String slice
+// const fruits ="Apple, Banana, Mango";
+// console.log(fruits)
+// const fruit1 = fruits.slice(0, 5);
+// console.log(fruit1);
+// const fruit2 = fruits.slice(7, 13);
+// console.log(fruit2);
+// const fruit3 = fruits.slice(15, 20);
+// console.log(fruit3);
+// console.log(fruit1, fruit2, fruit3);
+// const fruit4 = fruits.substring(0, 5);
+// console.log(fruit4);
+
+// Negative Slice
+
+// const fruits ="Apple, Banana, Mango";
+// const fruit1 = fruits.slice(-5);
+// console.log(fruit1);
+// const fruit2 = fruits.slice(-13, -7);
+// console.log(fruit2);
+// const fruit3 = fruits.slice(-20, -15);
+// console.log(fruit3);
+
+// String replace
+// const text = "I Love Dhaka";
+// console.log(text);
+// const text1 = text.replace("Dhaka", "Bogura");
+// console.log(text1)
+
+// String toUpperCase
+// const text = "Hello World"
+// console.log(text)
+// console.log(text.toUpperCase())
+
+// String search
+// const text = "Rahim moon nola moon"
+// console.log(text.indexOf("nola"))
+
+// console.log(text.lastIndexOf("moon"))
+
+
+// console.log(text.search("moon"))
+// console.log(text.search("Rahim"))
