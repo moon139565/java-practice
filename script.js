@@ -503,3 +503,56 @@ console.log(userobjectTwo.calculateAge())*/
 
 // console.log(text.search("moon"))
 // console.log(text.search("Rahim"))
+
+
+// class nine
+
+const id1 = document.getElementById("id1");
+// console.log(id1)
+console.log(id1.innerHTML);
+id1.innerHTML = "New Year";
+document.getElementById("id1").innerHTML = "New year 2023"
+
+const tag1 = document.getElementsByTagName("h1")[1];
+// console.log(tag1.innerHTML);
+// tag1.innerHTML = "My Header Two New"
+
+document.getElementsByTagName("h1")[1].innerHTML = "moon"
+
+
+const class1 = document.getElementsByClassName("class1")[0];
+// console.log(class1)
+// console.log(class1.innerHTML)
+console.log(class1.innerText);
+class1.innerText ="Mr Moon"
+
+
+const id1 = document.getElementById("id1");
+console.log(id1.innerText);
+id1.style.color ="red"
+id1.style.backgroundColor ="green";
+id1.style.fontSize = "50px"
+
+
+const id1 = document.getElementById("id1");
+console.log(id1.innerText);
+console.log(id1.attributes);
+console.log(id1.attributes.length)
+
+
+
+const id1 = document.getElementById("id1");
+console.log(id1.innerText);
+console.log(id1.getAttribute("class"))
+console.log(id1.getAttribute("id"))
+
+
+const id1 = document.getElementById("id1");
+console.log(id1.innerText);
+id1.removeAttribute("class");
+id1.removeAttribute("id");
+
+
+const id2 = document.getElementById("id2");
+console.log(id2.innerText);
+id2.setAttribute("class", "class2");
