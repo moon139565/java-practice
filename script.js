@@ -507,52 +507,110 @@ console.log(userobjectTwo.calculateAge())*/
 
 // class nine
 
-const id1 = document.getElementById("id1");
+// const id1 = document.getElementById("id1");
+// // console.log(id1)
+// console.log(id1.innerHTML);
+// id1.innerHTML = "New Year";
+// document.getElementById("id1").innerHTML = "New year 2023"
+
+// const tag1 = document.getElementsByTagName("h1")[1];
+// // console.log(tag1.innerHTML);
+// // tag1.innerHTML = "My Header Two New"
+
+// document.getElementsByTagName("h1")[1].innerHTML = "moon"
+
+
+// const class1 = document.getElementsByClassName("class1")[0];
+// // console.log(class1)
+// // console.log(class1.innerHTML)
+// console.log(class1.innerText);
+// class1.innerText ="Mr Moon"
+
+
+// const id1 = document.getElementById("id1");
+// console.log(id1.innerText);
+// id1.style.color ="red"
+// id1.style.backgroundColor ="green";
+// id1.style.fontSize = "50px"
+
+
+// const id1 = document.getElementById("id1");
+// console.log(id1.innerText);
+// console.log(id1.attributes);
+// console.log(id1.attributes.length)
+
+
+
+// const id1 = document.getElementById("id1");
+// console.log(id1.innerText);
+// console.log(id1.getAttribute("class"))
+// console.log(id1.getAttribute("id"))
+
+
+// const id1 = document.getElementById("id1");
+// console.log(id1.innerText);
+// id1.removeAttribute("class");
+// id1.removeAttribute("id");
+
+
+// const id2 = document.getElementById("id2");
+// console.log(id2.innerText);
+// id2.setAttribute("class", "class2");
+
+
+
+//  class Ten
+
+// const tag1 = document.querySelector(".class1")
+// console.log(tag1)
+
+// const id1 = document.querySelector("#id1")
 // console.log(id1)
-console.log(id1.innerHTML);
-id1.innerHTML = "New Year";
-document.getElementById("id1").innerHTML = "New year 2023"
 
-const tag1 = document.getElementsByTagName("h1")[1];
-// console.log(tag1.innerHTML);
-// tag1.innerHTML = "My Header Two New"
+// const tag1 = document.querySelectorAll("h1")
+// console.log(tag1)
 
-document.getElementsByTagName("h1")[1].innerHTML = "moon"
-
-
-const class1 = document.getElementsByClassName("class1")[0];
+// const class1 = document.querySelectorAll(".class1") 
 // console.log(class1)
-// console.log(class1.innerHTML)
-console.log(class1.innerText);
-class1.innerText ="Mr Moon"
+
+// const tag1 = document.getElementsByTagName("h1")
+// console.log(tag1)
+
+// const id1 = document.getElementById("id1")
+// console.log(id1)
+// console.log(id1.childNodes)
+
+// const id1 = document.getElementById("list-id")
+// console.log(id1)
+// console.log(id1.children)
+
+// const newList = document.createElement("li")
+// newList.innerHTML = "List 5"
+// console.log(newList)
+// const listid = document.getElementById("list-id")
+// listid.appendChild(newList)
+// console.log(listid)
 
 
-const id1 = document.getElementById("id1");
-console.log(id1.innerText);
-id1.style.color ="red"
-id1.style.backgroundColor ="green";
-id1.style.fontSize = "50px"
+// const id1 = document.getElementById("div-text");
+// const newHeading = document.createElement("h2");
+// newHeading.innerText = "new One";
+// id1.appendChild(newHeading);
 
 
-const id1 = document.getElementById("id1");
-console.log(id1.innerText);
-console.log(id1.attributes);
-console.log(id1.attributes.length)
+// const id1 = document.getElementById("list-id");
+// const list1 = id1.children[0];
+// id1.removeChild(list1)
 
 
-
-const id1 = document.getElementById("id1");
-console.log(id1.innerText);
-console.log(id1.getAttribute("class"))
-console.log(id1.getAttribute("id"))
-
-
-const id1 = document.getElementById("id1");
-console.log(id1.innerText);
-id1.removeAttribute("class");
-id1.removeAttribute("id");
+// const id1 = document.getElementById("list-id")
+// const list3 = id1.children[2]
+// const newList = document.createElement("li")
+// newList.innerText = "new One"
+// id1.replaceChild( newList, list3)
 
 
-const id2 = document.getElementById("id2");
-console.log(id2.innerText);
-id2.setAttribute("class", "class2");
+document.title = "new javascript"
+
+
+document.body.innerHTML = "<h2>Thank You!</h2>"
