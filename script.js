@@ -610,7 +610,48 @@ console.log(userobjectTwo.calculateAge())*/
 // id1.replaceChild( newList, list3)
 
 
-document.title = "new javascript"
+// document.title = "new javascript"
 
 
-document.body.innerHTML = "<h2>Thank You!</h2>"
+// document.body.innerHTML = "<h2>Thank You!</h2>"
+
+
+// Working With Array | Array Filter(), 
+
+// const age1 = [32, 33, 16, 17, 18, 6, 40];
+// function isvoter(vage){
+//     return vage >= 18;
+// };
+// const voterlist = age1.filter(isvoter);
+// console.log(voterlist)
+
+// // (2) array Find()
+//    const age1 = [32, 33, 16, 17, 18, 50, 6, 40];
+//    function personChecke(page){
+//     return page >= 33
+//    }
+//    const oldPerson = age1.find(personChecke);
+//    console.log(oldPerson)
+
+// // (3) array Map()
+
+// const num = [32, 33, 16, 17, 18, 50, 6, 40];
+// function newFunction(n){
+//     return n + 2
+// }
+// const newNumber = num.map(newFunction);
+// console.log(newNumber);
+
+// // (4) Array Reduce()
+// const num = [32, 40];
+// function getTotal(first, next){
+//     return first + next;
+// }
+// const total = num.reduce(getTotal);
+// console.log(total);
+
+
+// // (5) array Sort
+// const fruits = ["Apple", "Banana", "Orang", "Mango"];
+// const sortedFruits = fruits.sort();
+// console.log(sortedFruits)
